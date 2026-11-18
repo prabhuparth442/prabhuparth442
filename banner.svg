@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Voidness banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030409"/>
+      <stop offset="0.6" stop-color="#0a0714"/>
+      <stop offset="1" stop-color="#150b2b"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b2fb8" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#6d28d9" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e1b4b" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#4c1d95" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="waveC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5b21b6" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#7e22ce" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.68" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+    <mask id="waveMask"><rect width="1200" height="300" fill="url(#fade)"/></mask>
+    <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset="1" stop-color="#8b7fd6"/>
+    </linearGradient>
+    <radialGradient id="void" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000" stop-opacity="1"/>
+      <stop offset="0.62" stop-color="#000" stop-opacity="1"/>
+      <stop offset="0.7" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#6d28d9" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="textGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="b"/>
+      <feFlood flood-color="#6d28d9" flood-opacity="0.7"/>
+      <feComposite in2="b" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .a { animation: drift 18s linear infinite; }
+      .b { animation: drift 28s linear infinite reverse; }
+      .c { animation: drift 40s linear infinite; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-1200px); } }
+      .pulse { animation: pulse 6s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+      .name { font: 700 76px 'Segoe UI','Helvetica Neue',Arial,sans-serif; letter-spacing: 4px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)" class="pulse"/>
+
+  <g mask="url(#waveMask)">
+    <path class="c" fill="url(#waveC)" d="M0 150 c150 -50 300 50 600 0 c150 -50 300 50 600 0 c150 -50 300 50 600 0 c150 -50 300 50 600 0 L2400 300 L0 300 Z"/>
+    <path class="b" fill="url(#waveB)" d="M0 185 c150 60 300 -60 600 0 c150 60 300 -60 600 0 c150 60 300 -60 600 0 c150 60 300 -60 600 0 L2400 300 L0 300 Z"/>
+    <path class="a" fill="url(#waveA)" d="M0 225 c150 -45 300 45 600 0 c150 -45 300 45 600 0 c150 -45 300 45 600 0 c150 -45 300 45 600 0 L2400 300 L0 300 Z"/>
+  </g>
+
+  <circle cx="470" cy="110" r="80" fill="url(#void)" class="pulse"/>
+
+  <g fill="#a78bfa" opacity="0.4">
+    <circle cx="90" cy="70" r="2"/><circle cx="210" cy="120" r="1.5"/>
+    <circle cx="330" cy="50" r="2.5"/><circle cx="200" cy="40" r="1.5"/>
+    <circle cx="590" cy="190" r="1.5"/>
+  </g>
+
+  <rect x="650" y="95" width="3" height="110" rx="1.5" fill="#6d28d9"/>
+
+  <text x="690" y="178" class="name" fill="url(#name)" filter="url(#textGlow)">Voidness</text>
+</svg>
