@@ -16,13 +16,9 @@
 
 ## About me
 
-<a href="https://github.com/prabhuparth442"><img align="right" width="190" src="https://github.com/prabhuparth442.png?size=380" alt="avatar" /></a>
-
 Electrical engineering student at IIT Bhubaneswar, learning machine learning by building it from scratch. I have implemented backpropagation and a full transformer from a blank file, and I'm now working towards LLM engineering.
 
 My EE background (signals and systems, circuits, lab work) is the base. Machine learning is where I'm putting my effort.
-
-<br clear="right" />
 
 ## Technologies
 
