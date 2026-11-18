@@ -11,10 +11,18 @@ permissions:
 jobs:
   skyline:
     runs-on: ubuntu-latest
-    name: 3D skyline
+    name: 3D skylines
     steps:
       - uses: actions/checkout@v4
+      # All built-in themes
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      # Custom purple theme
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -24,20 +32,37 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add -A profile-3d-contrib
-          git diff --cached --quiet || git commit -m "Update 3D contribution skyline"
+          git diff --cached --quiet || git commit -m "Update 3D contribution skylines"
           git pull --rebase
           git push
 
-  snake:
+  games:
     runs-on: ubuntu-latest
-    name: snake
+    name: snake, pacman, breakout, space shooter
+    timeout-minutes: 25
     steps:
+      - uses: actions/checkout@v4
       - uses: Platane/snk/svg-only@v3
+        continue-on-error: true
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg?color_snake=#f472b6&color_dots=#1a1228,#4c1d95,#7e22ce,#c026d3,#f0abfc
+            dist/snake-github-dark.svg?palette=github-dark
+      - uses: abozanona/pacman-contribution-graph@main
+        continue-on-error: true
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: "pacman,breakout"
+      - uses: czl9707/gh-space-shooter@v2
+        continue-on-error: true
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: dist/space-shooter.gif
+          strategy: random
+          no-commit: true
       - uses: crazy-max/ghaction-github-pages@v4
+        if: always()
         with:
           target_branch: output
           build_dir: dist
