@@ -58,6 +58,10 @@ My EE background (signals and systems, circuits, lab work) is the base. Machine 
 
 <div align="center">
 
+<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution skyline" />
+
+<br />
+
 <a href="https://github.com/prabhuparth442"><img height="165" src="https://github-readme-stats.vercel.app/api?username=prabhuparth442&show_icons=true&hide_rank=true&theme=github_dark&hide_border=true&bg_color=0d1117&v=2" alt="stats" /></a>
 <a href="https://github.com/prabhuparth442"><img height="165" src="https://streak-stats.demolab.com/?user=prabhuparth442&theme=github-dark-blue&hide_border=true&background=0d1117&v=2" alt="streak" /></a>
 
