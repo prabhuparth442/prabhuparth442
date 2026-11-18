@@ -58,70 +58,7 @@ My EE background (signals and systems, circuits, lab work) is the base. Machine 
 
 <div align="center">
 
-<!-- GALLERY START: pick one, then I remove the rest -->
-### Heatmap options
-
-**3D skyline: custom purple**
-
-<img src="profile-3d-contrib/profile-customize.svg" width="95%" alt="3D skyline: custom purple" />
-
-**3D skyline: night view**
-
-<img src="profile-3d-contrib/profile-night-view.svg" width="95%" alt="3D skyline: night view" />
-
-**3D skyline: night green**
-
-<img src="profile-3d-contrib/profile-night-green.svg" width="95%" alt="3D skyline: night green" />
-
-**3D skyline: night rainbow**
-
-<img src="profile-3d-contrib/profile-night-rainbow.svg" width="95%" alt="3D skyline: night rainbow" />
-
-**3D skyline: gitblock**
-
-<img src="profile-3d-contrib/profile-gitblock.svg" width="95%" alt="3D skyline: gitblock" />
-
-**3D skyline: green, animated**
-
-<img src="profile-3d-contrib/profile-green-animate.svg" width="95%" alt="3D skyline: green, animated" />
-
-**3D skyline: seasons, animated**
-
-<img src="profile-3d-contrib/profile-season-animate.svg" width="95%" alt="3D skyline: seasons, animated" />
-
-**3D skyline: south seasons, animated**
-
-<img src="profile-3d-contrib/profile-south-season-animate.svg" width="95%" alt="3D skyline: south seasons, animated" />
-
-**3D skyline: green**
-
-<img src="profile-3d-contrib/profile-green.svg" width="95%" alt="3D skyline: green" />
-
-**3D skyline: seasons**
-
-<img src="profile-3d-contrib/profile-season.svg" width="95%" alt="3D skyline: seasons" />
-
-**Snake: custom purple**
-
-<img src="https://raw.githubusercontent.com/prabhuparth442/prabhuparth442/output/snake.svg" width="95%" alt="Snake: custom purple" />
-
-**Snake: GitHub dark**
-
-<img src="https://raw.githubusercontent.com/prabhuparth442/prabhuparth442/output/snake-github-dark.svg" width="95%" alt="Snake: GitHub dark" />
-
-**Pac-Man**
-
-<img src="https://raw.githubusercontent.com/prabhuparth442/prabhuparth442/output/pacman-contribution-graph-dark.svg" width="95%" alt="Pac-Man" />
-
-**Breakout**
-
-<img src="https://raw.githubusercontent.com/prabhuparth442/prabhuparth442/output/breakout-contribution-graph-dark.svg" width="95%" alt="Breakout" />
-
-**Space shooter**
-
-<img src="https://raw.githubusercontent.com/prabhuparth442/prabhuparth442/output/space-shooter.gif" width="95%" alt="Space shooter" />
-
-<!-- GALLERY END -->
+<img src="https://raw.githubusercontent.com/prabhuparth442/prabhuparth442/output/snake.svg" width="95%" alt="contribution snake" />
 
 <br />
 
