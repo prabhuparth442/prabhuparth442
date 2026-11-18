@@ -4,9 +4,9 @@
 
 <br />
 
-<a href="https://github.com/prabhuparth442?tab=repositories"><img src="https://img.shields.io/badge/GitHub-prabhuparth442-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+<a href="https://github.com/prabhuparth442?tab=repositories"><img src="https://img.shields.io/badge/GitHub-prabhuparth442-1a1228?style=for-the-badge&logo=github&logoColor=c084fc" alt="github" /></a>
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-contact-1a1228?style=for-the-badge&logo=gmail&logoColor=f472b6" alt="email" /></a>
+<a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-connect-1a1228?style=for-the-badge&logo=linkedin&logoColor=c084fc" alt="linkedin" /></a>
 
 </div>
 
@@ -24,11 +24,11 @@ My EE background (signals and systems, circuits, lab work) is the base. Machine 
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/Python-1a1228?style=for-the-badge&logo=python&logoColor=c084fc" alt="Python" />
+<img src="https://img.shields.io/badge/PyTorch-1a1228?style=for-the-badge&logo=pytorch&logoColor=f472b6" alt="PyTorch" />
+<img src="https://img.shields.io/badge/Jupyter-1a1228?style=for-the-badge&logo=jupyter&logoColor=e879f9" alt="Jupyter" />
+<img src="https://img.shields.io/badge/Linux-1a1228?style=for-the-badge&logo=linux&logoColor=c084fc" alt="Linux" />
+<img src="https://img.shields.io/badge/Git-1a1228?style=for-the-badge&logo=git&logoColor=f472b6" alt="Git" />
 
 </div>
 
@@ -58,13 +58,17 @@ My EE background (signals and systems, circuits, lab work) is the base. Machine 
 
 <div align="center">
 
-<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution skyline" />
+<img src="profile-3d-contrib/profile-customize.svg" width="100%" alt="3D contribution skyline" />
 
 <br />
 
-<a href="https://github.com/prabhuparth442"><img height="165" src="https://github-readme-stats.vercel.app/api?username=prabhuparth442&show_icons=true&hide_rank=true&theme=github_dark&hide_border=true&bg_color=0d1117&v=2" alt="stats" /></a>
-<a href="https://github.com/prabhuparth442"><img height="165" src="https://streak-stats.demolab.com/?user=prabhuparth442&theme=github-dark-blue&hide_border=true&background=0d1117&v=2" alt="streak" /></a>
+<img src="https://raw.githubusercontent.com/prabhuparth442/prabhuparth442/output/snake.svg" width="95%" alt="contribution snake" />
 
-<a href="https://github.com/prabhuparth442"><img src="https://github-readme-activity-graph.vercel.app/graph?username=prabhuparth442&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=Contribution%20Graph&v=2" width="95%" alt="activity graph" /></a>
+<br />
+
+<a href="https://github.com/prabhuparth442"><img height="165" src="https://github-readme-stats.vercel.app/api?username=prabhuparth442&show_icons=true&hide_rank=true&hide_border=true&bg_color=0d1117&title_color=f0abfc&icon_color=c026d3&text_color=e9d5ff&v=3" alt="stats" /></a>
+<a href="https://github.com/prabhuparth442"><img height="165" src="https://streak-stats.demolab.com/?user=prabhuparth442&hide_border=true&background=0d1117&ring=c026d3&fire=f472b6&currStreakNum=f0abfc&sideNums=e9d5ff&currStreakLabel=e879f9&sideLabels=c084fc&dates=a78bfa&v=3" alt="streak" /></a>
+
+<a href="https://github.com/prabhuparth442"><img src="https://github-readme-activity-graph.vercel.app/graph?username=prabhuparth442&bg_color=0d1117&hide_border=true&area=true&color=f0abfc&line=c026d3&point=f472b6&area_color=7e22ce&title_color=f0abfc&custom_title=Contribution%20Graph&v=3" width="95%" alt="activity graph" /></a>
 
 </div>

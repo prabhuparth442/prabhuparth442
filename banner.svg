@@ -3,19 +3,19 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#030409"/>
       <stop offset="0.6" stop-color="#0a0714"/>
-      <stop offset="1" stop-color="#150b2b"/>
+      <stop offset="1" stop-color="#1a0b24"/>
     </linearGradient>
     <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3b2fb8" stop-opacity="0.75"/>
-      <stop offset="1" stop-color="#6d28d9" stop-opacity="0.4"/>
+      <stop offset="0" stop-color="#7e22ce" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#a21caf" stop-opacity="0.4"/>
     </linearGradient>
     <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1e1b4b" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#4c1d95" stop-opacity="0.4"/>
+      <stop offset="0" stop-color="#3b0764" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#86198f" stop-opacity="0.4"/>
     </linearGradient>
     <linearGradient id="waveC" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5b21b6" stop-opacity="0.4"/>
-      <stop offset="1" stop-color="#7e22ce" stop-opacity="0.2"/>
+      <stop offset="0" stop-color="#a21caf" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#c026d3" stop-opacity="0.2"/>
     </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#fff"/>
@@ -26,7 +26,7 @@
     <mask id="waveMask"><rect width="1200" height="300" fill="url(#fade)"/></mask>
     <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#f5f3ff"/>
-      <stop offset="1" stop-color="#8b7fd6"/>
+      <stop offset="1" stop-color="#c084fc"/>
     </linearGradient>
     <radialGradient id="void" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#000" stop-opacity="1"/>
@@ -35,12 +35,12 @@
       <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow" cx="0.2" cy="0.4" r="0.55">
-      <stop offset="0" stop-color="#6d28d9" stop-opacity="0.3"/>
+      <stop offset="0" stop-color="#a21caf" stop-opacity="0.3"/>
       <stop offset="1" stop-color="#6d28d9" stop-opacity="0"/>
     </radialGradient>
     <filter id="textGlow" x="-20%" y="-40%" width="140%" height="180%">
       <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="b"/>
-      <feFlood flood-color="#6d28d9" flood-opacity="0.7"/>
+      <feFlood flood-color="#a21caf" flood-opacity="0.7"/>
       <feComposite in2="b" operator="in"/>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
@@ -72,7 +72,7 @@
     <circle cx="590" cy="190" r="1.5"/>
   </g>
 
-  <rect x="650" y="95" width="3" height="110" rx="1.5" fill="#6d28d9"/>
+  <rect x="650" y="95" width="3" height="110" rx="1.5" fill="#c026d3"/>
 
   <text x="690" y="178" class="name" fill="url(#name)" filter="url(#textGlow)">Voidness</text>
 </svg>
